@@ -11,10 +11,18 @@
     />
 
     <style>
+      body {
+        background-image: url("photoes/DEO-13.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
       .flex-container {
         display: flex;
         flex-direction: row;
-        background-color: lightgray;
+        background-color: black;
         height: 100px;
       }
 
@@ -22,32 +30,77 @@
         flex: 20;
         font-family: Cinzel, serif;
         font-size: 30px;
-        background-color: aquamarine;
+        text-align: left;
+        background-color: black;
+        color: white;
+        border-width: 0px;
         margin: 10px;
         padding: 20px;
+        cursor: pointer;
       }
 
-      
+      .deoart-box:hover {
+        opacity: 0.8;
+      }
+
+      .deoart-box:active {
+        opacity: 0.5;
+      }
+
       .buttons {
         flex: 1;
         font-size: 16px;
-        vertical-align: middle;
         font-family: Roboto, sans-serif;
-        background-color: aquamarine;
+        background-color: black;
+        color: white;
         margin: 10px;
         padding: 20px;
+        cursor: pointer;
+        border-width: 0px;
+      }
+
+      .buttons:hover {
+        opacity: 0.8;
+      }
+
+      .buttons:active {
+        opacity: 0.5;
+      }
+
+      .fine-art-text-hp {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 0px;
+      }
+
+      .doug-oram {
+        font-family: Cinzel, serif;
+        font-size: 110px;
+        text-align: center;
+        color: white;
+        margin-top: 0px;
+      }
+
+      .home-page-text {
+        text-align: center;
+        margin-top: 250px;
       }
     </style>
   </head>
   <body>
-    <div class="flex-container">
-      <div class="deoart-box">DEoArT</div>
-      <div class="buttons">Home</div>
-      <div class="buttons">Paintings</div>
-      <div class="buttons">Pastels</div>
-      <div class="buttons">About</div>
-      <div class="buttons">Contact</div>
-      <div class="buttons">Collect</div>
+    <header class="flex-container">
+      <button class="deoart-box">DEoArT</button>
+      <button class="buttons">Home</button>
+      <button class="buttons">Paintings</button>
+      <button class="buttons">Pastels</button>
+      <button class="buttons">About</button>
+      <button class="buttons">Contact</button>
+      <button class="buttons">Collect</button>
+    </header>
+    <div class="home-page-text">
+      <p class="fine-art-text-hp">Fine Art by</p>
+      <p class="doug-oram">Doug Oram</p>
     </div>
   </body>
 </html>
