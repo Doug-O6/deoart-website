@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home Page</title>
+    <title>Header Flexbox</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -10,97 +10,43 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/home-page.css">
+
     <style>
       body {
+        margin: 0;
         background-image: url("background-picture/DEO-13.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
       }
-
-      .flex-container {
-        display: flex;
-        flex-direction: row;
-        background-color: black;
-        height: 100px;
-      }
-
-      .deoart-box {
-        flex: 20;
-        font-family: Cinzel, serif;
-        font-size: 30px;
-        text-align: left;
-        background-color: black;
-        color: white;
-        border-width: 0px;
-        margin: 10px;
-        padding: 20px;
-        cursor: pointer;
-      }
-
-      .deoart-box:hover {
-        opacity: 0.8;
-      }
-
-      .deoart-box:active {
-        opacity: 0.5;
-      }
-
-      .buttons {
-        flex: 1;
-        font-size: 16px;
-        font-family: Roboto, sans-serif;
-        background-color: black;
-        color: white;
-        margin: 10px;
-        padding: 20px;
-        cursor: pointer;
-        border-width: 0px;
-      }
-
-      .buttons:hover {
-        opacity: 0.8;
-      }
-
-      .buttons:active {
-        opacity: 0.5;
-      }
-
-      .fine-art-text-hp {
-        text-align: center;
-        color: white;
-        font-size: 20px;
-        margin-bottom: 0px;
-      }
-
-      .doug-oram {
-        font-family: Cinzel, serif;
-        font-size: 110px;
-        text-align: center;
-        color: white;
-        margin-top: 0px;
-      }
-
-      .home-page-text {
-        text-align: center;
-        margin-top: 250px;
-      }
     </style>
   </head>
   <body>
-    <header class="flex-container">
-      <button class="deoart-box">DEoArT</button>
-      <button class="buttons">Home</button>
-      <button class="buttons">Paintings</button>
-      <button class="buttons">Pastels</button>
-      <button class="buttons">About</button>
-      <button class="buttons">Contact</button>
-      <button class="buttons">Collect</button>
-    </header>
+
+    <div class="header-bar">
+      <div class="left-section">
+        <a href="home-page.html" target="_blank" class="deoart-text">DEoArT</a>
+      </div>
+      <div class="middle-section"></div>
+      <div class="right-section">
+        <a href="home-page.html" target="_blank" class="buttons">Home</a>
+        <a href="paintings-page.html" target="_blank" class="buttons"
+          >Paintings</a
+        >
+        <a href="pastels-page.html" target="_blank" class="buttons">Pastels</a>
+        <a href="about-page.html" target="_blank" class="buttons">About</a>
+        <a href="contact-page.html" target="_blank" class="buttons">Contact</a>
+        <a href="collect-page.html" target="_blank" class="buttons">Collect</a>
+      </div>
+    </div>
+
     <div class="home-page-text">
       <p class="fine-art-text-hp">Fine Art by</p>
       <p class="doug-oram">Doug Oram</p>
     </div>
+
   </body>
 </html>
