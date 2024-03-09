@@ -17,6 +17,7 @@ a:after {
   flex-direction: row;
   align-items: center;
   background-color: black;
+  margin-bottom: 0px;
 }
 
 .left-section {

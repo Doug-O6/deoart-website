@@ -2,18 +2,37 @@
 <html>
   <head>
     <title>Pastels Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/header.css">
+
     <style>
+      body {
+        background-color: lightgray;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+      }
 
       .thumbnail-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         column-gap: 20px;
-        row-gap: 20px;
+        row-gap: 5px;
       }
 
       .thumbnail-contaner {
         width: 100%;
         margin-bottom: 20px;
+        background-color: white;
+
       }
 
       .thumbnail-picture {
@@ -24,14 +43,16 @@
 
       .thumbnail-text-contaner {
         text-align: center;
-        margin-top: 2px;
+        margin-top: 0;
       }
 
       .thumbnail-title {
         margin-top: 6px;
         margin-bottom: 6px;
-       font-size: 20px;
-       font-weight: bold;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: Cinzel;
+
       }
 
       .thumbnail-dimensions {
@@ -43,16 +64,31 @@
         margin-top: 2px;
         margin-bottom: 2px;
       }
-
     </style>
-
   </head>
   <body>
+
+    <div class="header-bar">
+      <div class="left-section">
+        <a href="home-page.html" target="_blank" class="deoart-text">DEoArT</a>
+      </div>
+      <div class="middle-section"></div>
+      <div class="right-section">
+        <a href="home-page.html" target="_blank" class="buttons">Home</a>
+        <a href="paintings-page.html" target="_blank" class="buttons"
+          >Paintings</a
+        >
+        <a href="pastels-page.html" target="_blank" class="buttons">Pastels</a>
+        <a href="about-page.html" target="_blank" class="buttons">About</a>
+        <a href="contact-page.html" target="_blank" class="buttons">Contact</a>
+        <a href="collect-page.html" target="_blank" class="buttons">Collect</a>
+      </div>
+    </div>
 
     <div class="thumbnail-grid">
       <div class="thumbnail-contaner">
         <div>
-          <img class="thumbnail-picture" src="pastels/Day's End.JPG">
+          <img class="thumbnail-picture" src="pastels/Day's End.JPG" />
         </div>
         <div class="thumbnail-text-contaner">
           <p class="thumbnail-title">Day's End</p>
@@ -60,21 +96,21 @@
           <p class="thumbnail-media">Pastel on Paper</p>
         </div>
       </div>
-  
+
       <div class="thumbnail-contaner">
         <div>
-          <img class="thumbnail-picture" src="pastels/1,2,3....JPG">
+          <img class="thumbnail-picture" src="pastels/1,2,3....JPG" />
         </div>
         <div class="thumbnail-text-contaner">
           <p class="thumbnail-title">1,2,3...</p>
           <p class="thumbnail-dimensions">36" x 48"</p>
           <p class="thumbnail-media">Pastel on Paper</p>
         </div>
-      </div>  
-  
+      </div>
+
       <div class="thumbnail-contaner">
         <div>
-          <img class="thumbnail-picture" src="pastels/Meeting Space.JPG">
+          <img class="thumbnail-picture" src="pastels/Meeting Space.JPG" />
         </div>
         <div class="thumbnail-text-contaner">
           <p class="thumbnail-title">Meeting Space</p>
@@ -82,10 +118,10 @@
           <p class="thumbnail-media">Pastel on Paper</p>
         </div>
       </div>
-  
+
       <div class="thumbnail-contaner">
         <div>
-          <img class="thumbnail-picture" src="pastels/At The Farm.JPG">
+          <img class="thumbnail-picture" src="pastels/At The Farm.JPG" />
         </div>
         <div class="thumbnail-text-contaner">
           <p class="thumbnail-title">At the Farm</p>
@@ -96,7 +132,7 @@
 
       <div class="thumbnail-contaner">
         <div>
-          <img class="thumbnail-picture" src="pastels/At The Farm 2.JPG">
+          <img class="thumbnail-picture" src="pastels/At The Farm 2.JPG" />
         </div>
         <div class="thumbnail-text-contaner">
           <p class="thumbnail-title">At the Farm 2</p>
@@ -104,10 +140,10 @@
           <p class="thumbnail-media">Pastel on Paper</p>
         </div>
       </div>
-  
+
       <div class="thumbnail-contaner">
         <div>
-          <img class="thumbnail-picture" src="pastels/Kindred Spirit.jpg">
+          <img class="thumbnail-picture" src="pastels/Kindred Spirit.jpg" />
         </div>
         <div class="thumbnail-text-contaner">
           <p class="thumbnail-title">Kindered Spirit</p>
@@ -115,10 +151,10 @@
           <p class="thumbnail-media">Pastel on Paper</p>
         </div>
       </div>
-  
+
       <div class="thumbnail-contaner">
         <div>
-          <img class="thumbnail-picture" src="pastels/Swimming in Time.JPG">
+          <img class="thumbnail-picture" src="pastels/Swimming in Time.JPG" />
         </div>
         <div class="thumbnail-text-contaner">
           <p class="thumbnail-title">Swimming in Time</p>
@@ -127,8 +163,5 @@
         </div>
       </div>
     </div>
-
-    
-
   </body>
 </html>
