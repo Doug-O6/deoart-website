@@ -66,11 +66,10 @@ a:after {
     row-gap: 5px;
   }
 
-  .thumbnail-contaner {
+  .thumbnail-container {
     width: 100%;
     margin-bottom: 20px;
     background-color: white;
-
   }
 
   .thumbnail-picture {
@@ -79,7 +78,7 @@ a:after {
     object-fit: cover;
   }
 
-  .thumbnail-text-contaner {
+  .thumbnail-text-container {
     text-align: center;
     margin-top: 0;
   }
