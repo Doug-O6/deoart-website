@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Painting Gallery Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/painting-gallery-page.css" />
+    <link rel="stylesheet" href="lightbox.css" />
+
+    <style>
+      body {
+        background-color: rgb(138, 123, 123);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-bar">
+      <div class="left-section">
+        <a href="home-page.html" target="_self" class="deoart-text">DEoArT</a>
+      </div>
+      <div class="middle-section"></div>
+      <div class="right-section">
+        <a href="home-page.html" target="_self" class="buttons">Home</a>
+        <a href="paintings-gallery-page.html" target="_self" class="home-button"
+          >Paintings</a
+        >
+        <a href="pastels-page.html" target="_self" class="buttons">Pastels</a>
+        <a href="about-page.html" target="_self" class="buttons">About</a>
+        <a href="contact-page.html" target="_self" class="buttons">Contact</a>
+        <a href="collect-page.html" target="_self" class="buttons">Collect</a>
+      </div>
+    </div>
+
+    <!-- Photo gallery goes here -->
+    <div class="gallery-container">
+      <div class="gallery">
+        <a
+          href="paintings/1_Cosmic Journey_48x60_2023.jpg"
+          data-lightbox="models"
+          data-title="Cosmic Journey"
+        >
+          <img
+            src="paintings/1_Cosmic Journey_48x60_2023.jpg"
+            alt="Abstract Art Image"
+          />
+        </a>
+
+        <a
+          href="paintings/Green_friends_36x48_2023.JPG"
+          data-lightbox="models"
+          data-title="Interstellar Visiter"
+        >
+          <img
+            src="paintings/Green_friends_36x48_2023.JPG"
+            alt="Abstract Art Image"
+          />
+        </a>
+
+        <a
+          href="paintings/3_Swim For The Stars_36x48_2023.jpg"
+          data-lightbox="models"
+          data-title="Swim for the Stars"
+        >
+          <img
+            src="paintings/3_Swim For The Stars_36x48_2023.jpg"
+            alt="Abstract Art Image"
+          />
+        </a>
+
+        <a
+          href="paintings/Blue_racoon_36x48_2023.JPG"
+          data-lightbox="models"
+          data-title="Blue Racoon"
+        >
+          <img
+            src="paintings/Blue_racoon_36x48_2023.JPG"
+            alt="Abstract Art Image"
+          />
+        </a>
+
+        <a
+          href="paintings/Funny_person_36x48_2023.JPG"
+          data-lightbox="models"
+          data-title="Interstellar Visiter"
+        >
+          <img
+            src="paintings/Funny_person_36x48_2023.JPG"
+            alt="Abstract Art Image"
+          />
+        </a>
+
+        <a
+          href="paintings/2_Infinite Possibilities_36x48_2023.jpg"
+          data-lightbox="models"
+          data-title="Infinite Possibilities"
+        >
+          <img
+            src="paintings/2_Infinite Possibilities_36x48_2023.jpg"
+            alt="Abstract Art Image"
+          />
+        </a>
+      </div>
+    </div>
+    <!-- Photo gallery goes here -->
+
+    <script src="lightbox-plus-jquery.js"></script>
+  </body>
+</html>
