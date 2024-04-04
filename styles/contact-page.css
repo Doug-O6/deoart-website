@@ -36,6 +36,11 @@ a:after {
   flex: 1;
 }
 
+.thumnail-picture {
+  height: 60px;
+  padding-left: 50px;
+}
+
 .right-section {
   width: 600px;
 }
